@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
+    <!-- PrefixFree -->
+    <script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
     <title>Calculator</title>
   </head>
   <body>
 
-      <div class="container">
-        <h1>Calculator</h1>
+      <div id="container">
 
-        <button class="btn btn-add" id="addition">Add</button>
+        <!--View screen and clear button-->
+        <div class="top">
+          <span class="clear-btn">C</span>
+          <div class="view-screen"
 
-        <div class="displayResult"></div>
+        </div>
+
+
+        <!--Buttons on calculator -->
+        <div class="buttons">
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span class="operator">+</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span class="operator">-</span>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span class="operator">&#247;</span>
+          <span>0</span>
+          <span>.</span>
+          <span class="equals">=</span>
+          <span class="operator">x</span>
+        </div>
+
+        <div class="display-result"></div>
       </div>
   </body>
 </html>
