@@ -7,11 +7,16 @@
 ## Description
 
 This application is a demonstration of creating and using basic functions to create a very basic calculator and learning about 
-the separation of the user-interface logic("front-end") and the business logic("backend").
+the separation of the user-interface logic("front-end") and the business logic("backend"). 
+
+Also, in order to practice basic HTML, CSS3, JavaScript, and JQuery, I created a browser-based GUI for a very basic calculator that uses
+CSS3 properties such as border-radius, transform, and box-shadow to make a more modern feel to the UI. Also, a sprinkle of regular 
+expressions is used to substitute the 'x' sign for multiplication and the '÷' sign for division when computing the values using 
+JavaScript functions. 
 
 ## Technologies Used
 
-HTML, CSS3, JavaScript, jQuery
+HTML, CSS3, JavaScript, jQuery, with a sprinkle of regular expressions
 
 ### Legal
 
