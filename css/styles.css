@@ -5,7 +5,7 @@
 }
 
 #container {
-    width: 500px;
+    width: 470px;
     height: auto;
     margin: auto;
     padding:40px;
@@ -14,7 +14,7 @@
     left:50%; 
     transform: translate(-50%,-50%);
     position: absolute;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .buttons {
@@ -22,19 +22,64 @@
 }
 
 /* Clear floats */
-.buttons span {
+.buttons, .top { 
+    overflow: hidden;
+}
+
+
+.buttons span, .top span.clear-btn {
     float:left;
-    width: 80px;
+    position: relative;
+    top:0;
+    width: 90px;
     height: 60px;
     background: white;
     border-radius: 3px;
-    margin: 0 6px 12px 0;
+    margin: 0 8px 12px 0;
     line-height: 60px;
     text-align: center;
+    
+    /* Style text */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Courier New, Courier, monospace;
+
 }
 
 span.operator {
     margin-right: 0;
 }
 
+.top .clear-btn {
+    float: left;
+}
 
+.top .view-screen {
+    height: 58px;
+    width: 288px;
+    background-color: rgba(0, 0, 0, 0.3);
+    float:left;
+    padding: 0 10px;
+    border-radius: 3px;
+    
+    /* Font related CSS */
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+    text-align: right;
+    
+}
+/* Styling buttons */
+.buttons span.operator {
+    background: #ff6666;
+    margin-right:0;
+}
+
+.buttons span.equals {
+    background: #8cff1a;
+}
+
+.top span.clear-btn {
+    background:  #8080ff;
+
+}
