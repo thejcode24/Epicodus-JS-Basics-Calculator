@@ -1,6 +1,6 @@
 # calculator
 
-##### Epicodus Section: JavaScript & JQuery Basics  - Calculator
+##### Epicodus Section: HTML, CSS3, JavaScript, JQuery Basics  - Calculator
 
 #### By Epicodus Lessons and re-typed by James Jung
 
@@ -11,7 +11,7 @@ the separation of the user-interface logic("front-end") and the business logic("
 
 ## Technologies Used
 
-JavaScript and jQuery
+HTML, CSS3, JavaScript, jQuery
 
 ### Legal
 
